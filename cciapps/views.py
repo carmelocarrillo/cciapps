@@ -21,7 +21,7 @@ def contact(request):
     return render(request, 'cciapps/contact.html', {'form': form})
 
 def productividad(request):
-    db = MySQLdb.connect(host='localhost', user='cciappsuser', passwd='12345678', db='producxe')
+    db = MySQLdb.connect(host='localhost', user='cciappsuser', passwd='ks928la7&5%a', db='producxe')
     cursor = db.cursor()
     sql = "SELECT * FROM articulos"
     cursor.execute(sql)
