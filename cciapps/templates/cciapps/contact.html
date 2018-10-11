@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+    <title>CCIAPPS Gestor de aplicaciones extra para CIMA cableados industriales</title>
+</head>
+<body>
+    <h1>Informe de productividad de empleados</h1>
+    <form action="." method="POST">
+        {% csrf_token %}
+        <table>
+            {{ form.as_table }}
+        </table>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>
+</html>
